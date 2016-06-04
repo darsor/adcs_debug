@@ -25,7 +25,7 @@ Packet& Packet::operator=(const Packet& that) {
 }
 void Packet::convert() {}
 
-AttitudePacket::AttitudePacket(): Packet(ATT_PKT_SIZE, 1) {}
+AttitudePacket::AttitudePacket(): Packet(ATT_PKT_SIZE, 3) {}
 
 void AttitudePacket::convert() {
     int16_t i16;

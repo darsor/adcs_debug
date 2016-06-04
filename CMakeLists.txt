@@ -9,7 +9,7 @@ set(COMMON_SOURCES
     cosmos/cosmos.cpp
     cosmos/packets.cpp
     cosmos/cosmosQueue.cpp
-    adcs.cpp
+    adcs/adcs.cpp
     main.cpp
 )
 
